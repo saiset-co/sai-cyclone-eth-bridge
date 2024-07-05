@@ -1,0 +1,9 @@
+services:
+  sai-cyclone-eth-bridge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8885:8885"
+    volumes:
+      - ./config.yml:/srv/config.yml

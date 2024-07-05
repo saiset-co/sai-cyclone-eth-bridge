@@ -1,0 +1,17 @@
+common:
+  http:
+    enabled: true
+    port: 8885
+  ws:
+    enabled: false
+    port: 8082
+
+cyclone:
+  interaction: "http://localhost:8882"
+  contract: "83c3d06dac33fd88890622bd310f436550de76081a896e36f5aa252b2fe8b3a2"
+  token: "12345"
+
+ethereum:
+  interaction: "http://localhost:8883"
+  contract: "0xD743f23ab8bEa3100EB70e843158Eb4c4A911049"
+  token: "12345"
